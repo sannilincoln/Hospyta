@@ -21,12 +21,12 @@ const SignIn = () => {
         </Text>
       </View>
 
-      <FormField
+      {/* <FormField
         title="Username"
         value={form.username}
         handleChangeText={() => console.log()}
         otherStyles="mt-7"
-      />
+      /> */}
     </SafeAreaView>
   );
 };
